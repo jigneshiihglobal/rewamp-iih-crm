@@ -1,0 +1,123 @@
+.dashboard-users-list .card-animate:hover {
+    -webkit-transform: translateY(calc(-1.5rem / 5));
+    transform: translateY(calc(-1.5rem / 5));
+    -webkit-box-shadow: 0 5px 10px rgba(30, 32, 37, .12);
+    box-shadow: 0 5px 10px rgba(30, 32, 37, .12);
+}
+
+.dashboard-users-list .card-animate {
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+
+.dashboard-users-list .dashboard-users-list__title {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-box-direction: normal;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    margin-top: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 1rem !important;
+    text-transform: uppercase !important;
+    color: #878a99 !important;
+    font-weight: 600;
+}
+
+.dashboard-users-list .dashboard-users-list__count {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-box-direction: normal;
+    word-wrap: break-word;
+    line-height: 1.2;
+    font-weight: 600 !important;
+    font-size: 22px !important;
+    color: #495057;
+    box-sizing: border-box;
+}
+/* Profile Image set */
+.profile_image{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.profile_image .profile-picture{
+    width: 53px;
+}
+.profile_image .won_lead_image,.profile_image .lead_count_image{
+    width: 55px;
+    height: 55px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: solid 1px #F6931D;
+}
+
+/* shield image set */
+.shield_image{
+    position: absolute;
+    top: 29px;
+    left: -12px;
+}
+.shield_image .profile-picture{
+    width: 26px;
+}
+
+@media (max-width: 1600px) {
+    .shield_image{
+        left: -6px;
+    }
+}
+
+/* cap image set */
+.cap_image{
+    position: absolute;
+    top: -22px;
+    left: 6px;
+}
+.cap_image .profile-picture{
+    width: 45px;
+}
+.Table_title{
+    margin-left: 13px;
+    margin-top: 15px;
+}
+.datatables-projects tbody td{
+    text-align: center;
+}
+.datatables-projects thead .text_position{
+    text-align: center;
+}
+
+.kudos_counter{
+    margin-top: 15px;
+    margin-left: -18px
+}
+.kudos_filter{
+    margin-top: 10px;
+    width: 150px;
+    margin-right: -67px;
+}
+.custom_filter {
+    width: 192px !important;
+}
+
+.winning_counter{
+    margin-top: 15px;
+    margin-left: -18px
+}
+.winning_filter{
+    margin-top: 10px;
+    width: 150px;
+    margin-right: -67px;
+}
+.winning_custom_filter {
+    width: 192px !important;
+}
+
+
+
+

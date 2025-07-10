@@ -1,0 +1,8 @@
+<p><strong>Dear {{ $client->name ?? '' }},</strong></p>
+<p>We hope this email finds you well. At IIH Global, we are committed to delivering exceptional service and ensuring that your experience with us exceeds your expectations. As one of our valued long-term customers, your feedback is incredibly important to us.</p>
+<p>We are constantly striving to improve our services, and your insights play a crucial role in helping us achieve that goal. We would greatly appreciate it if you could take a few moments to share your thoughts,</p>
+<p>Your honest opinions will help us identify areas where we excel and areas where we can make improvements. Your feedback is instrumental in shaping the future of our business, and we genuinely appreciate your time and consideration.</p>
+<p>To submit your review, please click on the following link: <a href="{{ config('custom.wp_review_url') }}?clientid={{ $client_id }}&feedbacktoken={{ $time_stamp ?? now()->timestamp }}" class="btn btn-sm d-inline-block text-white" style="background-color: rgba(246, 147, 29, 1); border-color: rgba(246, 147, 29, 1); text-decoration: none;">Click me</a></p>
+<p><strong>As a token of our appreciation, all participants will be entered into a drawing for amazon voucher reward worth of $50.</strong></p>
+<p>Thank you for being a valued customer of IIH Global. We look forward to hearing your thoughts and continuously working towards providing you with the best possible experience.</p>
+<p>Best Regards,</p><p>Thank you for your time!</p><p>Sincerely,</p><p>IIH Global Team</p>

@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Public Sans', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.lead-list__action_buttons {
+    gap: 4px !important;
+}
+
+.modal .modal-header {
+    background-color: #f6931d;
+}
+
+.modal-slide-in .modal-header {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.modal .modal-header .modal-title {
+    color: #fff;
+}
+
+.modal table td.label {
+    font-weight: 600;
+}
+
+.modal table td {
+    padding: 10px;
+}
+
+.lead-details {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lead-details li {
+    flex: 0 0 50%;
+    max-width: 50%;
+    display: flex;
+    padding: 8px 10px;
+}
+
+.lead-details li span {
+    max-width: 50%;
+    flex: 0 0 50%;
+}
+
+/* #leadDetailModal .modal-dialog{
+    max-width: 650px;
+} */
+#leadDetailModal #detail_requirement {
+    max-height: 200px;
+    overflow-y: auto;
+    display: inline-block;
+    width: 100%;
+    max-width: 630px;
+}
+
+#leadDetailModal #detail_attachments {
+    max-height: 150px;
+    overflow-y: auto;
+    display: inline-block;
+    width: 100%;
+}
+
+#leadDetailModal td {
+    border: #888888 1px solid;
+    padding: 7px;
+}
+
+@media (max-width : 575px) {
+    .lead-details li {
+        flex: 0 100%;
+        max-width: 100%;
+    }
+}
+
+.lead_detail_form {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(4, minmax(10px, 1fr));
+    grid-gap: 0.3em;
+    background: #eee;
+    padding: 0.5em;
+}
+
+.lead_detail_form>label {
+    grid-row: auto;
+    text-align: center;
+}
+
+.lead_detail_form>input {
+    grid-row: auto;
+    padding: 0.5em;
+    border: none;
+}
+
+@media(max-width:767px) {
+    .lead_detail_form {
+        grid-template-columns: repeat(2, minmax(10px, 1fr));
+    }
+}
+
+.bg-blue {
+    background-color: #0d6efd !important;
+}
+
+.bg-indigo {
+    background-color: #6610f2 !important;
+}
+
+.bg-purple {
+    background-color: #6f42c1 !important;
+}
+
+.bg-pink {
+    background-color: #d63384 !important;
+}
+
+.bg-red {
+    background-color: #dc3545 !important;
+}
+
+.bg-orange {
+    background-color: #fd7e14 !important;
+}
+
+.bg-yellow {
+    background-color: #ffc107 !important;
+}
+
+.bg-green {
+    background-color: #198754 !important;
+}
+
+.bg-teal {
+    background-color: #20c997 !important;
+}
+
+.bg-cyan {
+    background-color: #0dcaf0 !important;
+}
+
+.bg-gray {
+    background-color: #adb5bd !important;
+}
+
+.bg-black {
+    background-color: #000 !important;
+}
+
+.bg-white {
+    background-color: #fff !important;
+}
+
+#lead_notes_list {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+textarea.form-control {
+    padding: 0.3rem 0.5rem !important;
+}
+
+
+#lead_notes_list .note_card {
+    padding: 8px 12px;
+    border-radius: 0px;
+}
+
+.main-menu.menu-light .navigation>li.active>a {
+    background: #f6931d;
+    box-shadow: 0 0 10px 1px rgba(246, 147, 29, 0.7);
+}
+
+#addLeadModal .modal-body .form-group,
+#editLeadModal .modal-body .form-group,
+#addUserModal .modal-body .form-group {
+    margin-bottom: 6px !important;
+}
+
+.lead_status_filter_link:hover {
+    background-color: rgb(221, 211, 195);
+}
+
+#notification_list {
+    max-height: 400px;
+}
+
+.main-menu.menu-light .navigation>li.active>a {
+    box-shadow: none;
+}
+
+.dropzone {
+    border: 1px dashed var(--bs-primary);
+    min-height: unset;
+}
+
+.dropzone .dz-message {
+    margin: unset;
+}
+
+.profilePictureContainer {
+    height: 200px;
+    width: 200px;
+}
+
+.profilePictureContainer img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.main-menu.menu-light .navigation>li ul .active {
+    box-shadow: none;
+}
+
+.main-menu.menu-light .navigation>li ul .active>a {
+    background: #f6931d;
+    border-radius: 4px;
+}
+
+.custom-badge {
+    position: absolute;
+    top: -11px;
+    right: -9px;
+    min-width: 20px;
+    min-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    line-height: unset;
+    padding-left: unset;
+    padding-right: unset;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: #f6931d;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    color: #f6931d;
+    background-color: rgba(246, 147, 29, 0.12);
+}
+
+.dropdown-item.active.shalin-designs,
+.dropdown-item.shalin-designs:active {
+    background-color: #1C76B9;
+}
+
+.dropdown-item.shalin-designs:hover,
+.dropdown-item.shalin-designs:focus {
+    color: #1C76B9;
+    background-color: rgba(28, 117, 185, 0.12);
+}
+
+.invoice-table__buttons {
+    padding: 8px 12px;
+}
+
+.invoice-table__buttons.custom-margin {
+    margin-right: 6px;
+}
+
+.break-white-space {
+    white-space: break-spaces;
+}
+
+/* Custom flatpickr clear button */
+[data-flatpickr-clear-target] {
+    cursor: pointer;
+}
+
+.select2-container--default .select2-long-dropdown .select2-results>.select2-results__options {
+    max-height: 230px;
+}
+
+.nowrap-white-space {
+    white-space: nowrap;
+}
+
+.select2-container--default .select2-selection--single.select-sm .select2-selection__rendered {
+    font-size: 1rem;
+}
+
+.form-control-sm {
+    font-size: 1rem;
+}
+
+div.dataTables_wrapper div.dataTables_length label:has(select.form-select-sm),
+div.dataTables_wrapper div.dataTables_filter.dataTables_filter_sm label {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+div.dataTables_wrapper div.dataTables_filter.dataTables_filter_sm label input {
+    min-height: 2.142rem;
+    padding: 0.188rem 0.857rem;
+    font-size: 1rem;
+    border-radius: 0.357rem;
+}
+
+div.dataTables_wrapper div.dataTables_filter select.form-select.form-select-sm
+, div.dataTables_wrapper div.dataTables_length select.form-select.form-select-sm  {
+    background-position: calc(100% - 3px) 7px, calc(100% - 20px) 13px, 100% 0;
+    padding: 0.275rem 0.857rem;
+    font-size: 1rem;
+}
+
+.custom-btn-primary {
+    border-color: #f6931d !important;
+    background-color: #f6931d !important;
+    color: #fff !important;
+    box-shadow: none;
+    font-weight: 500;
+    display: inline-block;
+    line-height: 1;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    padding: 0.6rem 1.1rem;
+    font-size: 1rem;
+    border-radius: 0.358rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, background 0s, border 0s;
+}
+
+a.custom-btn-primary,
+.ql-snow .ql-editor a.custom-btn-primary {
+    text-decoration: none;
+}
+.paynowbtn{
+    text-decoration: none;
+    background-color: #40A143 !important;
+}
+a#mail_payment_link {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -26px;
+}
+
+.invoice-reminder-box{
+    width: 98%;
+    margin-left: auto;
+}
+
+.client-name-color{
+    color:  #6d62e4;
+}
+#invoice_notes .col-12{
+    box-shadow: 0 4px 24px 0 rgba(34, 41, 47, 0.1) !important;
+    padding: 10px 14px;
+    margin-bottom: 10px;
+    background: #dc5541b8 !important;
+    color: #fff;
+}
+
+
+/* Project List Modal Css */
+/* Custom styles for the active tab underline */
+#project_log_list_model .nav-tabs .nav-link {
+    border: none; /* Remove default borders */
+}
+
+#project_log_list_model .nav-tabs .nav-link.active {
+    border-bottom: 1px solid #f6931d; /* Underline with the specified color */
+    color: #f6931d; /* Change text color to match the underline (optional) */
+}
+
+#project_log_list_model .modal-body {
+    max-height: 90vh; /* Set a maximum height for the modal body */
+    height: 90vh; /* Set a fixed height for the modal body */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+#project_log_list_model .select2-selection__clear{
+    display: none;
+}
+
+#project_log_list_model canvas#pieChart{
+    height: 560px !important;
+    width: 560px !important;
+    margin: 0 auto;
+}
+
+#project_log_list_model .project-log-title{
+    justify-content: flex-start;
+    width: 100%;
+    padding: 10px;
+    background-color: #e7e7e7;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 0.357rem;
+}
+#project_log_list_model .project-log-date,.project-log-time{
+    width: 50%;
+}
+
+
+#project_log_list_model .project-log-date h6, #project_log_list_model .project-log-time h6{
+    margin-bottom: 0;
+}
+#projectLogListModal{
+    text-align: center;
+}
+
+#project_log_list_model .select2-container .select2-selection--single{
+    height: 38px;
+}
+#project_log_list_model .select2-container--default .select2-selection--single .select2-selection__rendered{
+    line-height: 35px;
+}
+#project_log_list_model .select2-container--default .select2-selection--single .select2-selection__arrow b{
+    margin-top: 5px;
+}
+#project_log_list_model .accordion-body table tr td{
+    text-align: left;
+}
+#project_log_list_model .accordion-body table tr th{
+    text-align: left;
+    padding-left: 12px;
+}
+#project_log_list_model .nav-fill .nav-item:hover{
+background-color: #baa5a52b;
+}

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+html,
+body {
+    font-family: 'Public Sans', sans-serif;
+}
+
+body {
+    margin: 1cm 1cm 1cm 1.25cm;
+    border: 1px solid #ffc681;
+    padding: 1em;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+tr {
+    page-break-inside: avoid;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+td,
+th {
+    vertical-align: top;
+}
+
+table.table-bordered th,
+table.table-bordered td {
+    padding: 4px 6px;
+}
+
+table.table-bordered {
+    border-collapse: collapse;
+}
+
+table.table-bordered td,
+table.table-bordered th {
+    border: 1px solid black;
+}
+
+.bg-orange {
+    /* current color */
+    /* background-color: #ffc681 !important; */
+    /* sent to sanjay bhai */
+    background-color: #ffe4c6 !important;
+}
+
+.text-end {
+    text-align: right;
+}
+
+.logo .logo__image {
+    width: 120px;
+}
+
+.text-primary {
+    color: rgba(115, 103, 240, 1) !important;
+}
+
+.currency_symbol {
+    font-family: 'DejaVu Sans', sans-serif;
+    line-height: 16px;
+}
+
+.text-success {
+    color: #28c76f;
+}
+
+.text-warning {
+    color: #ff9f43;
+}
+
+.text-danger {
+    color: #ea5455;
+}
+
+.w-auto {
+    width: auto;
+}
+
+.pe-1 {
+    padding-right: 1rem;
+}

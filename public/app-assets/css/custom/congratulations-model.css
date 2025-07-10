@@ -1,0 +1,300 @@
+/** {*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*html, body {*/
+/*    min-height: 100%;*/
+/*    height: 100%;*/
+/*    !*background-image: url(http://theartmad.com/wp-content/uploads/Dark-Grey-Texture-Wallpaper-5.jpg);*!*/
+/*    background-size: cover;*/
+/*    background-position: top center;*/
+/*}*/
+html.modal-active, body.modal-active {
+    overflow: hidden;
+    pointer-events: none;
+}
+.congrats-modal.modal{
+    display: none;
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    /*width: 46%;*/
+    /*height: auto;*/
+    position: fixed;
+    color: #fff;
+    top: auto;
+    font-family: 'Public Sans', sans-serif;
+}
+/*.modal-backdrop{*/
+/*    opacity: 0;*/
+/*    position: unset;*/
+/*}*/
+.congrats-modal .modal-content{
+    border-radius: 10px;
+}
+.congrats-modal .modal-dialog{
+    max-width: 46%;
+}
+.congrats-modal .modal-body{
+    border-radius: 10px;
+    padding: 50px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.congrats-modal .modal_third:before,
+.congrats-modal .modal_fifth:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgb(43 40 78 / 60%);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.congrats-modal .modal-overlay{
+    position: relative;
+    color: #fff;
+}
+.congrats-modal .modal_one{
+    background-image: url(../../../app-assets/images/background/bg-img-1.jpg);
+}
+.congrats-modal .modal_two{
+    background-image: url(../../../app-assets/images/background/bg-img-2.jpg);
+}
+.congrats-modal .modal_third{
+    background-image: url(../../../app-assets/images/background/bg-img-3.jpg);
+}
+
+.congrats-modal .modal_fourth h1,
+.congrats-modal .modal_fourth p,
+.congrats-modal .modal_two h1,
+.congrats-modal .modal_two p,
+.congrats-modal .modal_ten h1,
+.congrats-modal .modal_ten p{
+    color: #ffd700 !important;
+}
+.congrats-modal .modal_third h1,
+.congrats-modal .modal_third p{
+    color: #adff2f !important;
+}
+
+.congrats-modal .modal_fourth{
+    background-image: url(../../../app-assets/images/background/bg-img-4.jpg);
+}
+.congrats-modal .modal_fifth{
+    background-image: url(../../../app-assets/images/background/bg-img-5.jpg);
+}
+.congrats-modal .modal_six{
+    background-image: url(../../../app-assets/images/background/bg-img-6.jpg);
+    background-size: cover;
+}
+.congrats-modal .modal_seven{
+    background-image: url(../../../app-assets/images/background/bg-img-7.jpg);
+}
+.congrats-modal .modal_eight{
+    background-image: url(../../../app-assets/images/background/bg-img-8.jpg);
+}
+.congrats-modal .modal_nine{
+    background-image: url(../../../app-assets/images/background/bg-img-9.jpg);
+}
+.congrats-modal .modal_ten{
+    background-image: url(../../../app-assets/images/background/bg-img-10.jpg);
+}
+.congrats-modal .modal_nine{
+    background-position: bottom;
+}
+.congrats-modal .modal_seven h1,
+.congrats-modal .modal_seven p
+{
+    color: #00008b !important;
+}
+
+.congrats-modal .modal_nine h1,
+.congrats-modal .modal_nine p{
+    color: #971313 !important;
+}
+
+.congrats-modal.modal h1{
+    font-size: 2.5rem;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.congrats-modal.modal p{
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Sora', sans-serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.congrats-modal.modal p span{
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+}
+.congrats-modal #modal-container {
+    position: fixed;
+    display: table;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    z-index: 1;
+}
+.congrats-modal .close-modal{
+    position: absolute;
+    top: -14px;
+    right: -12px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #d79a26;
+    border-color: transparent;
+    font-size: 20px;
+    line-height: 24px;
+    cursor: pointer;
+    z-index: 1056;
+    transition: 0.3s all ease-in-out;
+}
+.congrats-modal .close-modal:hover{
+    transform: translate(5px, 10px);
+}
+.congrats-modal #modal-container.one,
+.congrats-modal #modal-container.two,
+.congrats-modal #modal-container.third,
+.congrats-modal #modal-container.fourth,
+.congrats-modal #modal-container.fifth,
+.congrats-modal #modal-container.six,
+.congrats-modal #modal-container.seven,
+.congrats-modal #modal-container.eight,
+.congrats-modal #modal-container.nine,
+.congrats-modal #modal-container.ten{
+    transform: scaleY(0.01) scaleX(0);
+    animation: zoomIn 0.2s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+.congrats-modal #modal-container.one .modal-background .modal,
+.congrats-modal #modal-container.two .modal-background .modal
+.congrats-modal #modal-container.third .modal-background .modal,
+.congrats-modal #modal-container.fourth .modal-background .modal,
+.congrats-modal #modal-container.fifth .modal-background .modal,
+.congrats-modal #modal-container.six .modal-background .modal,
+.congrats-modal #modal-container.seven .modal-background .modal,
+.congrats-modal #modal-container.eight .modal-background .modal,
+.congrats-modal #modal-container.nine .modal-background .modal,
+.congrats-modal #modal-container.ten .modal-background .modal {
+    transform: scale(0);
+    animation: zoomIn 0.2s 0.2s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+.congrats-modal #modal-container.out{
+    transform: scale(1);
+    animation: zoomOut 0.2s 0.2s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+.congrats-modal #modal-container.out .modal-background .modal {
+    animation: zoomOut 0.2s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+
+.congrats-modal #modal-container .modal-background {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.congrats-modal #modal-container .modal-background .modal {
+    background-color: white;
+    padding: 50px;
+    display: inline-block;
+    border-radius: 3px;
+    font-weight: 300;
+    position: relative;
+    overflow: initial;
+    color: #fff;
+}
+.congrats-modal #modal-container .modal-background .modal h2 {
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+.congrats-modal.modal .modal-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 3px;
+}
+.congrats-modal.modal .modal-svg rect {
+    stroke: #fff;
+    stroke-width: 2px;
+    stroke-dasharray: 778;
+    stroke-dashoffset: 778;
+}
+
+.congrats-modal .content {
+    min-height: 100%;
+    height: 100%;
+    background: white;
+    position: relative;
+    /*z-index: 1;*/
+}
+.congrats-modal .content h1 {
+    padding: 75px 0 30px 0;
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+}
+.congrats-modal .content .buttons {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+.congrats-modal .content .buttons .button {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 15px;
+    margin: 10px;
+    background: red;
+    font-size: 18px;
+    background-color: #efefef;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+.congrats-modal .content .buttons .button:hover {
+    color: white;
+    background: #009bd5;
+}
+@keyframes zoomIn {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes zoomOut {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+
+@media(max-width: 767px){
+    .congrats-modal.modal {
+        width: auto;
+        height: auto;
+    }
+}

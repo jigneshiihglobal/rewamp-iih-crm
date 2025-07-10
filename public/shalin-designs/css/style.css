@@ -1,0 +1,132 @@
+/* #1C76B9 Blue */
+/* #004466 Dark Blue */
+:root {
+    --bs-primary: #1c76b9;
+    --bs-primary-rgb: 28, 118, 185;
+}
+
+.main-menu .navbar-header .navbar-brand .brand-text {
+    color: #1c76b9;
+}
+
+.main-menu.menu-light .navigation>li.active>a {
+    background: #1c76b9;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #1c76b9;
+}
+
+.btn-primary {
+    border-color: #1c76b9 !important;
+    background-color: #1c76b9 !important;
+    color: #fff !important;
+}
+
+a {
+    color: #1c76b9;
+}
+
+.page-item.active .page-link {
+    color: #1C76B9;
+    background-color: #1C76B9;
+    border-color: #1C76B9;
+}
+
+.form-check-input:checked {
+    background-color: #1C76B9;
+    border-color: #1C76B9;
+}
+
+.form-check-input:focus {
+    border-color: #1C76B9;
+    box-shadow: 0 2px 4px 0 rgba(28, 117, 185, 0.4);
+}
+
+.modal .modal-header {
+    background-color: #1C76B9;
+}
+
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+    background-color: #1C76B9 !important;
+}
+
+.btn-primary:hover:not(.disabled):not(:disabled) {
+    box-shadow: 0 8px 25px -8px #1C76B9;
+}
+
+.form-control:focus {
+    border-color: #1C76B9;
+}
+
+.input-group:not(.bootstrap-touchspin):focus-within .form-control,
+.input-group:not(.bootstrap-touchspin):focus-within .input-group-text {
+    border-color: #1C76B9;
+}
+
+.select2-container--classic .select2-selection--single:focus,
+.select2-container--default .select2-selection--single:focus {
+    border-color: #1C76B9 !important;
+}
+
+.select2-container--classic.select2-container--open .select2-selection--single,
+.select2-container--default.select2-container--open .select2-selection--single {
+    border-color: #1C76B9 !important;
+}
+
+.select2-container--classic .select2-results__option[aria-selected='true'],
+.select2-container--default .select2-results__option[aria-selected='true'] {
+    background-color: #1C76B9 !important;
+}
+
+.select2-container--classic .select2-results__option--highlighted,
+.select2-container--default .select2-results__option--highlighted {
+    color: #1C76B9 !important;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: #1C76B9;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    color: #1C76B9;
+    background-color: rgba(28, 117, 185, 0.12);
+}
+
+.dropdown-item.active.iih-global,
+.dropdown-item.iih-global:active {
+    background-color: #f6931d;
+}
+
+.dropdown-item.iih-global:hover,
+.dropdown-item.iih-global:focus {
+    color: #f6931d;
+    background-color: rgba(246, 147, 29, 0.12);
+}
+
+.select2-container--classic .select2-selection--multiple .select2-selection__choice,
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #1C76B9 !important;
+    border-color: #1C76B9 !important;
+}
+
+.custom-btn-primary {
+    background-color: #1C76B9 !important;
+}
+
+.select2-container--classic.select2-container--focus .select2-selection--multiple,
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+    border-color: #1C76B9 !important;
+}
+.paynowbtn{
+    text-decoration: none;
+    background-color: #40A143 !important;
+}
+div.receipt_export{
+    border-bottom: 2px solid #1C76B9 !important;
+}

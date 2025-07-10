@@ -1,0 +1,366 @@
+.custom-bg-Aqua { background-color: #00FFFF !important; color: #333 !important; }  .custom-bg-Blue { background-color: #0000FF !important; color: #fff !important; }  .custom-bg-Brown { background-color: #A52A2A !important; color: #fff !important; }  .custom-bg-Chocolate { background-color: #D2691E !important; color: #fff !important; }  .custom-bg-Cyan { background-color: #00FFFF !important; color: #333 !important; }  .custom-bg-DarkBlue { color: #fff !important; background-color: #00008B !important; }  .custom-bg-DarkGreen { color: #fff !important; background-color: #006400 !important; }  .custom-bg-DarkMagenta { color: #fff !important; background-color: #8B008B !important; }  .custom-bg-DarkOliveGreen { color: #fff !important; background-color: #556B2F !important; }  .custom-bg-DarkOrange { color: #333 !important; background-color: #FF8C00 !important; }  .custom-bg-DarkOrchid { color: #fff !important; background-color: #9932CC !important; }  .custom-bg-DarkRed { color: #fff !important; background-color: #8B0000 !important; }  .custom-bg-DeepPink { color: #fff !important; background-color: #FF1493 !important; }  .custom-bg-ForestGreen { color: #fff !important; background-color: #228B22 !important; }  .custom-bg-FireBrick { color: #fff !important; background-color: #B22222 !important; }  .custom-bg-Gold { color: #333 !important; background-color: #FFD700 !important; }  .custom-bg-Gray { color: #fff !important; background-color: #808080 !important; }  .custom-bg-Green { color: #fff !important; background-color: #008000 !important; }  .custom-bg-GreenYellow { color: #333 !important; background-color: #ADFF2F !important; }  .custom-bg-HotPink { color: #333 !important; background-color: #FF69B4 !important; }  .custom-bg-Indigo { color: #fff !important; background-color: #4B0082 !important; }  .custom-bg-Lime { color: #333 !important; background-color: #00FF00 !important; }  .custom-bg-LimeGreen { color: #fff !important; background-color: #32CD32 !important; }  .custom-bg-Magenta { color: #fff !important; background-color: #FF00FF !important; }  .custom-bg-Maroon { color: #fff !important; background-color: #800000 !important; }  .custom-bg-MediumBlue { color: #fff !important; background-color: #0000CD !important; }  .custom-bg-MidnightBlue { color: #fff !important; background-color: #191970 !important; }  .custom-bg-Navy { color: #fff !important; background-color: #000080 !important; }  .custom-bg-Olive { color: #fff !important; background-color: #808000 !important; }  .custom-bg-Orange { color: #333 !important; background-color: #FFA500 !important; }  .custom-bg-OrangeRed { color: #fff !important; background-color: #FF4500 !important; }  .custom-bg-Orchid { color: #333 !important; background-color: #DA70D6 !important; }  .custom-bg-Purple { color: #fff !important; background-color: #800080 !important; }  .custom-bg-Red { color: #fff !important; background-color: #FF0000 !important; }  .custom-bg-RoyalBlue { color: #fff !important; background-color: #4169E1 !important; }  .custom-bg-SeaGreen { color: #fff !important; background-color: #2E8B57 !important; }  .custom-bg-Sienna { color: #fff !important; background-color: #A0522D !important; }  .custom-bg-SteelBlue { color: #fff !important; background-color: #4682B4 !important; }  .custom-bg-Teal { color: #fff !important; background-color: #008080 !important; }  .custom-bg-Tomato { color: #fff !important; background-color: #FF6347 !important; }  .custom-bg-Yellow { color: #333 !important; background-color: #FFFF00 !important; }  .custom-bg-YellowGreen { color: #333 !important; background-color: #9ACD32 !important; }
+.custom-btn-flat-indigo {
+    background-color: transparent;
+    color: #7367f0;
+}
+
+#receiptNewFile {
+    padding-left: 0;
+}
+#receiptNewFile li {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 10px;
+}
+#receiptNewFile li button {
+    color: red;
+    border: 0;
+    background: #fff;
+    padding: 0;
+}
+#invoices_notes_list .invoice_note_card{
+    padding-bottom: 10px;
+}
+
+.custom_file_attach {
+    line-height: 22px;
+}
+
+.card-text.mb-0.d-flex {
+    padding: 8px 12px;
+    border-radius: 0px;
+}
+
+#invoices_notes_list .card {
+    box-shadow: none !important;
+}
+
+#sendReceiptMailForm .choose_file{
+    border-right: 1px solid #ccc;
+    padding: 9px 10px 9px 0;
+}
+
+#sendReceiptMailForm .no_file_chosen{
+    padding-left: 6px;
+}
+
+.text_right{
+    text-align: end;
+}
+svg.feather.feather-check-circle.font-medium-3{
+    color: green;
+}
+svg.feather.feather-check-circle {
+    color: green;
+    height: 22px;
+    width: 18px;
+}
+svg.feather.feather-slash.font-medium-3{
+    color: red;
+}
+svg.feather.feather-slash {
+    color: red;
+    height: 22px;
+    width: 18px;
+}
+
+#payment_reminder_enable_model .modal-lg, .modal-xl, #invoice_already_paid_model .modal-lg, .modal-xl,
+#marketing_mail_enable_model .modal-lg {
+    max-width: 500px;
+}
+
+#payment_reminder_enable_model .modal-body{
+    padding: 1.8rem 1.4rem;
+}
+
+#payment_reminder_enable_model .modal-body h4 {
+    margin-top: 15px;
+}
+
+#payment_reminder_enable_model .modal-body .enable_invoice {
+    margin-bottom: 20px;
+}
+
+#payment_reminder_enable_model .alt_circle {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin: auto;
+}
+
+#payment_reminder_enable_model .col-12 {
+    padding-bottom: 20px;
+}
+
+
+#customer_project_list_model .modal-lg, .modal-xl, .modal-xl
+{
+    max-width: 575px;
+}
+
+#customer_project_list_model .modal-body{
+    padding: 1.8rem 1.4rem;
+}
+
+#customer_project_list_model .modal-body h4 {
+    margin-top: 15px;
+}
+
+#customer_project_list_model .alt_circle {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin: auto;
+}
+
+#customer_project_list_model .col-12 {
+    padding-bottom: 20px;
+}
+
+#invoice_already_paid_model .col-sm-12 {
+    padding-top: 10px;
+}
+#invoice-cancelled-modal .modal-lg, .modal-xl{
+    max-width: 450px;
+}
+#invoice-cancelled-modal .col-sm-12 {
+    padding-top: 10px;
+}
+div.receipt_export {
+    display: flex;
+    align-items: flex-end !important;
+    border-bottom: 2px solid #ff9f43;
+    padding-bottom: 20px;
+}
+#payment_receipt_export_Confirm{
+    padding: 0.600rem 1rem;
+    margin-top: 10px;
+}
+input#paid_edit_at {
+    width: 439px;
+}
+#invoice-payment-edit-modal .modal-lg{
+    max-width: 640px !important;
+}
+#invoice-payment-edit-modal .modal-body {
+    padding: 2.5rem 1.8rem 3.5rem !important;
+}
+#invoice-payment-edit-modal .modal-dialog-scrollable .modal-body {
+     overflow-y: unset !important;
+}
+#invoice-payment-edit-modal{
+    background-color: #22292f61;
+}
+#reviewUserModal .modal-dialog-scrollable .modal-body {
+    overflow-y: unset !important;
+}
+.flatpickr-wrapper {
+    width: 100%;
+}
+
+.user_profile_image .won_lead_image{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: solid 1px #F6931D;
+}
+.user_profile_image{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.user_profile_image .profile-picture{
+    width: 48px;
+}
+.note_amount img{
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    top: 6px;
+    right: 5px;
+    padding: 2px;
+}
+
+
+/*changes*/
+.invoice-reminder-box {
+    width: 100%;
+}
+
+.plus-btn{
+    float: right !important;
+    color: #ffffff !important;
+    padding: 0px 8px;
+}
+
+
+.contacted-list-table td {
+    overflow-wrap: anywhere;
+}
+.contacted-list-table th:first-child,
+.contacted-list-table th:nth-child(4),
+.contacted-list-table th:nth-child(5),
+.contacted-list-table th:nth-child(6),
+.contacted-list-table th:nth-child(7),
+.contacted-list-table th:last-child{
+    width: 10% !important;
+}
+.contacted-list-table th:nth-child(2){
+    width: 25% !important;
+}
+.contacted-list-table th:nth-child(3){
+    width: 20% !important;
+}
+#contact_lead_filter .card-header{
+    justify-content: center;
+    align-items: flex-end;
+}
+#contact_lead_filter .card-header h1{
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+#contact_lead_filter .card-body span{
+    font-size: 14px;
+    color: #1b1b1b;
+}
+#contact_lead_filter .card-header h1.total_count{
+    color: #1b1b1b !important;
+}
+#contact_lead_filter .card-header h1.delivered,
+.delivereds_count .percentage-delivered{
+    color: #4388ae !important;
+}
+#contact_lead_filter .card-header h1.open_count,
+.open_count .percentage-delivered{
+    color: #9cc980 !important;
+}
+#contact_lead_filter .card-header h1.soft_bounce,
+.soft_bounce_count .percentage-delivered{
+    color: #e6735c!important;
+}
+
+.leads-table-wrapper td {
+    overflow-wrap: anywhere;
+}
+.leads-table-wrapper th:first-child,
+.leads-table-wrapper th:nth-child(1)
+.leads-table-wrapper th:nth-child(4),
+.leads-table-wrapper th:nth-child(6),
+.leads-table-wrapper th:last-child{
+    width: 10% !important;
+}
+.leads-table-wrapper th:nth-child(3){
+    width: 20% !important;
+}
+
+#noteRemindersModal #noteReminderForm .vat_amount_add{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.vat_amount_add .form-check-input[type='checkbox']:checked {
+    background-size: 65% !important;
+}
+
+#marketing_mail_enable_model .modal-body{
+    padding: 1.8rem 1.4rem;
+}
+#marketing_mail_enable_model .alt_circle {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin: auto;
+}
+#marketing_mail_enable_model .modal-body h4 {
+    margin-top: 15px;
+}
+#marketing_mail_enable_model .col-12 {
+    padding-bottom: 20px;
+}
+.mail_send_count{
+    cursor: pointer;
+}
+
+.percentage-delivered{
+    font-size: 12px;
+    color: #1b1b1b !important;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.colour_selected{
+    background-color: #faba6f61 !important;
+}
+.csm_modal_lg {
+    max-width: 1120px;
+}
+.customer_review_email{
+    color: #185a5c;
+}
+.customer_email_preview_history{
+    color: rgb(186 85 35);
+}
+.review_modal_lg {
+    max-width: 1150px;
+}
+#feedbackModal .table > :not(caption) > * > * {
+    padding: 0.75rem 1rem;
+}
+
+#feedbackAccordion .center_lable{
+    text-align: center;
+}
+#feedbackAccordion .small_text{
+    font-size: 11px;
+    white-space: nowrap;
+}
+#feedbackAccordion .accordion-body {
+    padding: 0rem 1rem;
+}
+#feedbackAccordion .accordion .accordion-body {
+    padding-top: 0px;
+}
+#messageModal .message-custom-modal {
+    min-width: 400px;
+}
+#messageModal .message-custom-modal .modal-content {
+    min-height: 150px;
+}
+
+.icon-badge-wrapper {
+    position: relative;
+    display: inline-block;
+}
+.icon-badge-wrapper .badge {
+    position: absolute;
+    left: -8px;
+    top: -8px;
+    background: #f6931d;
+    color: white;
+    font-size: 10px;
+    width: 19px;
+    height: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    z-index: 1;
+}
+.credit_card_side_menu{
+    width: 20px !important;
+    height: 20px !important;
+}
+.custom-badge-pending {
+    background-color: #fd7e14;
+    color: #fff;
+    display: inline-block;
+    min-width: 64px;
+    text-align: center;
+}
+.custom-badge-line{
+    line-height: normal;
+}
